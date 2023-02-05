@@ -8,7 +8,7 @@ services:
     ports:
       - "8086:8086"
     env_file:
-      - services/influx/.env
+      - services/influx/env
     build:
       context: .
       dockerfile: services/influx/Dockerfile
