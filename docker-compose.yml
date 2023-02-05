@@ -49,7 +49,7 @@ services:
    restart: always
    build:
       context: .
-      dockerfile: services/telegraf/Dockerfile
+      dockerfile: services/telegraf/dockerfile
    depends_on:
     - database
     - broker
